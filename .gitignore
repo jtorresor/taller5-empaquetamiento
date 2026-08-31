@@ -1,0 +1,19 @@
+# Entornos virtuales
+env-tox/
+.venv/
+venv/
+
+# Artefactos de tox / build
+.tox/
+build/
+dist/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Modelo entrenado (se regenera con: tox run -e train)
+model/trained/*.pkl
+
+.DS_Store

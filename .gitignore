@@ -17,3 +17,6 @@ __pycache__/
 model/trained/*.pkl
 
 .DS_Store
+
+*.pkl
+*.whl
